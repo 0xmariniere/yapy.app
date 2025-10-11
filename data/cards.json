@@ -1,0 +1,288 @@
+[
+  {
+    "id": "c_001",
+    "prompt": "What's the most spontaneous thing you've ever done with a friend?",
+    "tags": ["friends", "light", "fun"]
+  },
+  {
+    "id": "c_002",
+    "prompt": "If you could relive one day with your closest friend, which would it be?",
+    "tags": ["friends", "deep", "nostalgic"]
+  },
+  {
+    "id": "c_003",
+    "prompt": "What's a hobby or interest you wish more of your friends shared with you?",
+    "tags": ["friends", "light", "interests"]
+  },
+  {
+    "id": "c_004",
+    "prompt": "Who was your childhood best friend, and what made that friendship special?",
+    "tags": ["friends", "deep", "nostalgic"]
+  },
+  {
+    "id": "c_005",
+    "prompt": "What's the funniest inside joke you have with your friends?",
+    "tags": ["friends", "light", "fun"]
+  },
+  {
+    "id": "c_006",
+    "prompt": "If your friend group was a TV show, what would it be called?",
+    "tags": ["friends", "fun", "creative"]
+  },
+  {
+    "id": "c_007",
+    "prompt": "What's something you've always wanted to tell your friends but haven't?",
+    "tags": ["friends", "deep", "vulnerable"]
+  },
+  {
+    "id": "c_008",
+    "prompt": "How do you think your friends would describe you in three words?",
+    "tags": ["friends", "introspective", "light"]
+  },
+  {
+    "id": "c_009",
+    "prompt": "What's a trip or adventure you'd love to take with your friends?",
+    "tags": ["friends", "fun", "future"]
+  },
+  {
+    "id": "c_010",
+    "prompt": "When do you feel most connected to your friends?",
+    "tags": ["friends", "deep", "introspective"]
+  },
+  {
+    "id": "c_011",
+    "prompt": "What's your favorite memory of us together?",
+    "tags": ["friends", "nostalgic", "light"]
+  },
+  {
+    "id": "c_012",
+    "prompt": "What's something small I do that makes you feel appreciated?",
+    "tags": ["friends", "deep", "appreciation"]
+  },
+  {
+    "id": "c_101",
+    "prompt": "What's one thing about our relationship that surprised you?",
+    "tags": ["couples", "deep", "reflection"]
+  },
+  {
+    "id": "c_102",
+    "prompt": "When did you first realize you were falling for me?",
+    "tags": ["couples", "romantic", "nostalgic"]
+  },
+  {
+    "id": "c_103",
+    "prompt": "What's your favorite way I show you love?",
+    "tags": ["couples", "romantic", "appreciation"]
+  },
+  {
+    "id": "c_104",
+    "prompt": "If we could go anywhere in the world right now, where would you choose?",
+    "tags": ["couples", "fun", "future"]
+  },
+  {
+    "id": "c_105",
+    "prompt": "What's a dream you have that you haven't shared with me yet?",
+    "tags": ["couples", "deep", "vulnerable"]
+  },
+  {
+    "id": "c_106",
+    "prompt": "How do you envision our life together in 10 years?",
+    "tags": ["couples", "future", "deep"]
+  },
+  {
+    "id": "c_107",
+    "prompt": "What's something I do that always makes you smile?",
+    "tags": ["couples", "romantic", "light"]
+  },
+  {
+    "id": "c_108",
+    "prompt": "What was your first impression of me?",
+    "tags": ["couples", "nostalgic", "light"]
+  },
+  {
+    "id": "c_109",
+    "prompt": "What's a challenge we've overcome together that made us stronger?",
+    "tags": ["couples", "deep", "growth"]
+  },
+  {
+    "id": "c_110",
+    "prompt": "If you could describe our relationship in one word, what would it be?",
+    "tags": ["couples", "introspective", "romantic"]
+  },
+  {
+    "id": "c_111",
+    "prompt": "What's a small gesture I could do more often to make you feel loved?",
+    "tags": ["couples", "romantic", "practical"]
+  },
+  {
+    "id": "c_112",
+    "prompt": "What's your favorite thing about the way we communicate?",
+    "tags": ["couples", "deep", "appreciation"]
+  },
+  {
+    "id": "c_113",
+    "prompt": "What's something you're grateful for about our relationship?",
+    "tags": ["couples", "romantic", "appreciation"]
+  },
+  {
+    "id": "c_114",
+    "prompt": "What's a fear you have about our future, and how can we address it together?",
+    "tags": ["couples", "deep", "vulnerable"]
+  },
+  {
+    "id": "c_115",
+    "prompt": "What's the most romantic moment we've shared?",
+    "tags": ["couples", "romantic", "nostalgic"]
+  },
+  {
+    "id": "c_201",
+    "prompt": "If you could know the absolute truth to one question, what would you ask?",
+    "tags": ["philosophical", "deep", "existential"]
+  },
+  {
+    "id": "c_202",
+    "prompt": "Do you believe people are inherently good or bad?",
+    "tags": ["philosophical", "deep", "ethics"]
+  },
+  {
+    "id": "c_203",
+    "prompt": "What do you think happens after we die?",
+    "tags": ["philosophical", "existential", "spiritual"]
+  },
+  {
+    "id": "c_204",
+    "prompt": "Is it better to be feared or loved? Why?",
+    "tags": ["philosophical", "ethics", "power"]
+  },
+  {
+    "id": "c_205",
+    "prompt": "What's a belief you held strongly that you've since changed your mind about?",
+    "tags": ["philosophical", "growth", "introspective"]
+  },
+  {
+    "id": "c_206",
+    "prompt": "If you could live forever, would you? Why or why not?",
+    "tags": ["philosophical", "existential", "mortality"]
+  },
+  {
+    "id": "c_207",
+    "prompt": "What do you think is the meaning of life?",
+    "tags": ["philosophical", "existential", "purpose"]
+  },
+  {
+    "id": "c_208",
+    "prompt": "Is free will real, or are our choices predetermined?",
+    "tags": ["philosophical", "existential", "determinism"]
+  },
+  {
+    "id": "c_209",
+    "prompt": "What's more important: being happy or being fulfilled?",
+    "tags": ["philosophical", "purpose", "values"]
+  },
+  {
+    "id": "c_210",
+    "prompt": "If you could ask any historical figure one question, who and what would you ask?",
+    "tags": ["philosophical", "history", "curiosity"]
+  },
+  {
+    "id": "c_211",
+    "prompt": "Do you think technology is making us more or less human?",
+    "tags": ["philosophical", "technology", "society"]
+  },
+  {
+    "id": "c_212",
+    "prompt": "What's the most profound realization you've ever had?",
+    "tags": ["philosophical", "deep", "introspective"]
+  },
+  {
+    "id": "c_213",
+    "prompt": "If you could change one thing about human nature, what would it be?",
+    "tags": ["philosophical", "ethics", "idealism"]
+  },
+  {
+    "id": "c_214",
+    "prompt": "What do you think consciousness actually is?",
+    "tags": ["philosophical", "existential", "mind"]
+  },
+  {
+    "id": "c_215",
+    "prompt": "Is there a difference between knowing something and understanding it?",
+    "tags": ["philosophical", "epistemology", "wisdom"]
+  },
+  {
+    "id": "c_301",
+    "prompt": "What's your most controversial opinion?",
+    "tags": ["spicy", "polemic", "bold"]
+  },
+  {
+    "id": "c_302",
+    "prompt": "Who in this group has the most unpredictable future?",
+    "tags": ["spicy", "personal", "bold"]
+  },
+  {
+    "id": "c_303",
+    "prompt": "What's something society accepts that you think is completely wrong?",
+    "tags": ["spicy", "polemic", "society"]
+  },
+  {
+    "id": "c_304",
+    "prompt": "If you had to cancel one social media platform forever, which would it be?",
+    "tags": ["spicy", "technology", "debate"]
+  },
+  {
+    "id": "c_305",
+    "prompt": "What's a secret you've never told anyone in this room?",
+    "tags": ["spicy", "vulnerable", "bold"]
+  },
+  {
+    "id": "c_306",
+    "prompt": "Who do you think is the most overrated celebrity and why?",
+    "tags": ["spicy", "opinion", "culture"]
+  },
+  {
+    "id": "c_307",
+    "prompt": "What's the most awkward romantic moment you've ever experienced?",
+    "tags": ["spicy", "personal", "embarrassing"]
+  },
+  {
+    "id": "c_308",
+    "prompt": "If you could tell one person in your life an uncomfortable truth without consequences, what would it be?",
+    "tags": ["spicy", "vulnerable", "bold"]
+  },
+  {
+    "id": "c_309",
+    "prompt": "What's a rule you think should be broken?",
+    "tags": ["spicy", "polemic", "rebellion"]
+  },
+  {
+    "id": "c_310",
+    "prompt": "What's the pettiest reason you've ever stopped talking to someone?",
+    "tags": ["spicy", "personal", "conflict"]
+  },
+  {
+    "id": "c_311",
+    "prompt": "If you could swap lives with anyone here for a day, who would it be and why?",
+    "tags": ["spicy", "personal", "curious"]
+  },
+  {
+    "id": "c_312",
+    "prompt": "What's something you judge people for but probably shouldn't?",
+    "tags": ["spicy", "introspective", "judgment"]
+  },
+  {
+    "id": "c_313",
+    "prompt": "What's the biggest lie you've ever told?",
+    "tags": ["spicy", "vulnerable", "confession"]
+  },
+  {
+    "id": "c_314",
+    "prompt": "Who here do you think has changed the most since you first met them?",
+    "tags": ["spicy", "personal", "observation"]
+  },
+  {
+    "id": "c_315",
+    "prompt": "What's a hot take you have about modern dating?",
+    "tags": ["spicy", "polemic", "romance"]
+  }
+]
+
