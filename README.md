@@ -11,10 +11,10 @@ Designed to sit face-up in the middle of the table, yapy.app brings human connec
 ## ✨ Features
 
 - **4 Curated Categories**
-  - 🤝 **FRENS** - spark new takes
-  - 💕 **BABE** - evolve ur relationship
-  - 🤔 **DEEP** - go philosophical
-  - 🔥 **UNFILTERED** - pillow talk
+  - ✨ **FRENS** - spark new takes
+  - 💌 **BABE** - evolve ur relationship
+  - 💭 **DEEP** - go philosophical
+  - 🍑 **UNFILTERED** - pillow talk
 
 - **Interactive Card Experience**
   - Swipe or tap to navigate between cards
@@ -29,8 +29,9 @@ Designed to sit face-up in the middle of the table, yapy.app brings human connec
   - Pause and resume functionality
 
 - **Beautiful Design**
-  - Dark mode by default
-  - Blended gradient backgrounds
+  - Postmodern geometric backgrounds
+  - Bold, vibrant color schemes per category
+  - Glassmorphism effects with transparency
   - Minimal, distraction-free interface
   - Responsive design for all devices
 
@@ -64,7 +65,7 @@ Designed to sit face-up in the middle of the table, yapy.app brings human connec
 
 1. **Clone the repository**
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/0xmariniere/chattr.git
 cd chattr
 ```
 
@@ -128,7 +129,7 @@ Cards are stored in `/data/cards.json`. Each card has:
 {
   "id": "c_001",
   "prompt": "What's the most spontaneous thing you've ever done?",
-  "tags": ["friends", "light", "fun"]
+  "tags": ["frens", "light", "fun"]
 }
 ```
 
@@ -137,7 +138,7 @@ Cards are stored in `/data/cards.json`. Each card has:
 - **id**: Unique identifier (e.g., `c_001`)
 - **prompt**: The conversation question
 - **tags**: Array of category and descriptor tags
-  - Category tags: `friends`, `couples`, `philosophical`, `spicy`
+  - Category tags: `frens`, `babe`, `deep`, `unfiltered`
   - Descriptor tags: `light`, `deep`, `fun`, `romantic`, etc.
 
 To add new cards, simply add new objects to the JSON array.
@@ -155,11 +156,13 @@ export const categories: CategoryInfo[] = [
   {
     id: "frens",
     name: "FRENS",
+    emoji: "✨",
     gradient: {
       from: "#FF9A9E",
       to: "#FAD0C4"
     },
-    description: "Fun and meaningful conversations for friends"
+    textColor: "#FFD700",
+    description: "spark new takes"
   },
   // ... more categories
 ];
@@ -198,7 +201,7 @@ No environment variables required for basic functionality.
 
 ## 📱 Progressive Web App (PWA)
 
-Chattr includes PWA support:
+yapy.app includes PWA support:
 
 - Install on home screen (iOS/Android)
 - Offline-ready after first load
