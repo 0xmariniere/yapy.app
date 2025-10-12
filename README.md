@@ -1,6 +1,6 @@
 # 🗣️ yapy.app
 
-**convos that hit**
+**spark conversations**
 
 yapy.app is a beautifully designed conversation starter app that helps people connect through meaningful, fun, or thought-provoking discussions. Using digital "cards" with curated questions, users can find inspiration for conversations with friends, partners, or groups.
 
@@ -11,8 +11,8 @@ Designed to sit face-up in the middle of the table, yapy.app brings human connec
 ## ✨ Features
 
 - **4 Curated Categories**
-  - ✨ **FRENS** - spark new takes
-  - 💌 **BABE** - evolve ur relationship
+  - ✨ **FRENS** - normalize oversharing
+  - 💌 **BABE** - not not therapy
   - 💭 **DEEP** - go philosophical
   - 🍑 **UNFILTERED** - pillow talk
 
@@ -162,7 +162,7 @@ export const categories: CategoryInfo[] = [
       to: "#FAD0C4"
     },
     textColor: "#FFD700",
-    description: "spark new takes"
+    description: "normalize oversharing"
   },
   // ... more categories
 ];
@@ -255,6 +255,6 @@ For questions or feedback, please open an issue on GitHub.
 
 ---
 
-**yapy.app** - convos that hit 💬
+**yapy.app** - spark conversations 💬
 
 

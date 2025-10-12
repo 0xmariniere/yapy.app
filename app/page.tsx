@@ -38,7 +38,7 @@ export default function Home() {
           </div>
           <div>
             <p className="text-xl md:text-2xl font-medium inline-block px-4 py-2 bg-white/80 rounded-lg text-[#2d2d2d]">
-              convos that hit
+              spark conversations
             </p>
           </div>
         </header>

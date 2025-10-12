@@ -10,7 +10,7 @@ export const categories: CategoryInfo[] = [
       to: "#FAD0C4"
     },
     textColor: "#FFD700", // Yellow from background
-    description: "spark new takes"
+    description: "normalize oversharing"
   },
   {
     id: "babe",
@@ -21,7 +21,7 @@ export const categories: CategoryInfo[] = [
       to: "#FF8C00"
     },
     textColor: "#FF0000", // Red from background
-    description: "evolve ur relationship"
+    description: "not not therapy"
   },
   {
     id: "deep",
