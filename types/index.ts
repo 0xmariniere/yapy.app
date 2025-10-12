@@ -25,6 +25,7 @@ export interface CategoryInfo {
     from: string;
     to: string;
   };
+  textColor: string;
   description: string;
 }
 

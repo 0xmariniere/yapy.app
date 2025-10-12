@@ -9,6 +9,7 @@ export const categories: CategoryInfo[] = [
       from: "#FF9A9E",
       to: "#FAD0C4"
     },
+    textColor: "#FFD700", // Yellow from background
     description: "spark new takes"
   },
   {
@@ -19,6 +20,7 @@ export const categories: CategoryInfo[] = [
       from: "#FF0080",
       to: "#FF8C00"
     },
+    textColor: "#FF0000", // Red from background
     description: "evolve ur relationship"
   },
   {
@@ -29,6 +31,7 @@ export const categories: CategoryInfo[] = [
       from: "#00DBDE",
       to: "#FC00FF"
     },
+    textColor: "#0033FF", // Blue from background
     description: "go philosophical"
   },
   {
@@ -39,6 +42,7 @@ export const categories: CategoryInfo[] = [
       from: "#FF512F",
       to: "#DD2476"
     },
+    textColor: "#8B2252", // Burgundy from background
     description: "pillow talk"
   }
 ];

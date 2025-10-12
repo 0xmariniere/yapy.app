@@ -5,35 +5,42 @@ import { categories } from "@/lib/categories";
 
 export default function Home() {
   return (
-    <main className="min-h-screen relative overflow-hidden">
-      {/* Background gradient that blends all categories */}
-      <div 
-        className="fixed inset-0 z-0 animate-pulse-glow"
-        style={{
-          background: `linear-gradient(
-            135deg,
-            #FF9A9E 0%,
-            #FAD0C4 15%,
-            #FF0080 35%,
-            #FF8C00 50%,
-            #FC00FF 70%,
-            #00DBDE 85%,
-            #DD2476 100%
-          )`,
-          opacity: 0.15
-        }}
-      />
+    <main className="min-h-screen relative overflow-hidden bg-[#d9d9d9]">
+      {/* Postmodern Background Shapes - Exact Match */}
+      <div className="fixed inset-0 z-0">
+        {/* Red horizontal bar - top */}
+        <div className="absolute top-[18%] left-0 w-[82%] h-[14%] bg-[#FF0000] rounded-r-[70px]" />
+        
+        {/* Black rounded rectangle - left middle */}
+        <div className="absolute top-[32%] left-0 w-[35%] h-[13%] bg-[#2d2d2d] rounded-r-[60px]" />
+        
+        {/* Gray square - bottom left */}
+        <div className="absolute bottom-[8%] left-[1%] w-[33%] h-[40%] bg-[#b5b5b5] rounded-[50px]" />
+        
+        {/* Blue large square - center bottom */}
+        <div className="absolute bottom-[8%] left-[35%] w-[45%] h-[60%] bg-[#0033FF] rounded-[50px]" />
+        
+        {/* Yellow vertical bar - right */}
+        <div className="absolute top-[15%] right-0 w-[16%] h-[62%] bg-[#FFD700] rounded-l-[80px]" />
+        
+        {/* Burgundy circle - bottom right */}
+        <div className="absolute bottom-[8%] right-[8%] w-[15%] h-[15%] bg-[#8B2252] rounded-full" style={{ aspectRatio: '1/1' }} />
+      </div>
 
       {/* Content */}
       <div className="relative z-10 min-h-screen flex flex-col">
         {/* Header */}
         <header className="pt-16 pb-8 px-6 text-center animate-fade-in">
-          <h1 className="text-6xl md:text-7xl font-bold text-white mb-4 tracking-tight">
-            yapy.app
-          </h1>
-          <p className="text-xl md:text-2xl text-white/80 font-medium">
-            convos that hit
-          </p>
+          <div className="mb-4">
+            <h1 className="text-6xl md:text-7xl font-bold tracking-tight inline-block px-4 py-2 bg-white/90 rounded-xl text-[#2d2d2d]">
+              yapy.app
+            </h1>
+          </div>
+          <div>
+            <p className="text-xl md:text-2xl font-medium inline-block px-4 py-2 bg-white/80 rounded-lg text-[#2d2d2d]">
+              convos that hit
+            </p>
+          </div>
         </header>
 
         {/* Category Grid */}

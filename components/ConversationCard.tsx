@@ -26,11 +26,14 @@ export default function ConversationCard({
   totalCards
 }: ConversationCardProps) {
   return (
-    <div className="flex flex-col h-full animate-fade-in">
+    <div className="flex flex-col h-full animate-fade-in relative z-10">
       {/* Card content */}
-      <div className="flex-1 flex items-center justify-center px-8 py-12">
-        <div className="text-center max-w-2xl animate-slide-up">
-          <p className="text-3xl md:text-5xl font-bold text-white leading-tight tracking-tight text-balance">
+      <div className="flex-1 flex items-center justify-center px-6 sm:px-8 py-12">
+        <div className="text-center max-w-4xl w-full animate-slide-up">
+          <p 
+            className="text-3xl md:text-4xl lg:text-5xl font-bold leading-tight tracking-tight text-balance inline-block px-8 sm:px-12 md:px-16 lg:px-20 py-6 sm:py-8 md:py-10 lg:py-12 bg-white/90 rounded-3xl shadow-xl"
+            style={{ color: category.textColor }}
+          >
             {card.prompt}
           </p>
         </div>
@@ -43,17 +46,18 @@ export default function ConversationCard({
           <button
             onClick={onPrevious}
             disabled={!hasPrevious}
-            className="p-3 sm:p-4 rounded-full bg-white/10 hover:bg-white/20 active:bg-white/30 disabled:opacity-30 disabled:cursor-not-allowed transition-all duration-200 touch-manipulation"
+            className="p-3 sm:p-4 rounded-full bg-white/50 hover:bg-white/70 active:bg-white/80 disabled:opacity-30 disabled:cursor-not-allowed transition-all duration-200 touch-manipulation backdrop-blur-sm"
             aria-label="Previous card"
             title="Previous card"
           >
             <svg 
-              className="w-5 h-5 sm:w-6 sm:h-6 text-white" 
+              className="w-5 h-5 sm:w-6 sm:h-6" 
               fill="none" 
               strokeWidth={2.5} 
               stroke="currentColor" 
               viewBox="0 0 24 24"
               aria-hidden="true"
+              style={{ color: category.textColor }}
             >
               <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
             </svg>
@@ -62,28 +66,29 @@ export default function ConversationCard({
           {/* Skip button */}
           <button
             onClick={onSkip}
-            className="px-6 sm:px-8 py-3 sm:py-4 rounded-full bg-white/10 hover:bg-white/20 active:bg-white/30 transition-all duration-200 touch-manipulation"
+            className="px-6 sm:px-8 py-3 sm:py-4 rounded-full bg-white/50 hover:bg-white/70 active:bg-white/80 transition-all duration-200 touch-manipulation backdrop-blur-sm"
             aria-label="Skip to next card"
             title="Skip this card"
           >
-            <span className="text-white font-semibold text-base sm:text-lg">Skip</span>
+            <span className="font-semibold text-base sm:text-lg" style={{ color: category.textColor }}>Skip</span>
           </button>
 
           {/* Next button */}
           <button
             onClick={onNext}
             disabled={!hasNext}
-            className="p-3 sm:p-4 rounded-full bg-white/10 hover:bg-white/20 active:bg-white/30 disabled:opacity-30 disabled:cursor-not-allowed transition-all duration-200 touch-manipulation"
+            className="p-3 sm:p-4 rounded-full bg-white/50 hover:bg-white/70 active:bg-white/80 disabled:opacity-30 disabled:cursor-not-allowed transition-all duration-200 touch-manipulation backdrop-blur-sm"
             aria-label="Next card"
             title="Next card"
           >
             <svg 
-              className="w-5 h-5 sm:w-6 sm:h-6 text-white" 
+              className="w-5 h-5 sm:w-6 sm:h-6" 
               fill="none" 
               strokeWidth={2.5} 
               stroke="currentColor" 
               viewBox="0 0 24 24"
               aria-hidden="true"
+              style={{ color: category.textColor }}
             >
               <path strokeLinecap="round" strokeLinejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
             </svg>
