@@ -7,7 +7,7 @@ Your Chattr app has been successfully built according to all the specifications 
 ### 🏗️ What Was Built
 
 #### **1. Core Features**
-- ✅ 4 curated categories (Friends, Couples, Philosophical, Spicy)
+- ✅ 4 curated categories (FRENS, BABE, DEEP, UNFILTERED)
 - ✅ 60 hand-crafted conversation prompts
 - ✅ Beautiful card-based interface
 - ✅ Swipe and tap navigation
@@ -25,10 +25,10 @@ Your Chattr app has been successfully built according to all the specifications 
 - ✅ Dark mode by default (#0e0e0e background)
 - ✅ Blended gradient backgrounds
 - ✅ Category-specific gradients:
-  - Friends: Pink (#FF9A9E → #FAD0C4)
-  - Couples: Magenta to Orange (#FF0080 → #FF8C00)
-  - Philosophical: Cyan to Violet (#00DBDE → #FC00FF)
-  - Spicy: Red to Deep Pink (#FF512F → #DD2476)
+  - FRENS: Pink (#FF9A9E → #FAD0C4)
+  - BABE: Magenta to Orange (#FF0080 → #FF8C00)
+  - DEEP: Cyan to Violet (#00DBDE → #FC00FF)
+  - UNFILTERED: Red to Deep Pink (#FF512F → #DD2476)
 - ✅ Smooth animations and transitions
 - ✅ Elegant hover effects
 
@@ -118,15 +118,15 @@ Edit `/data/cards.json`:
 {
   "id": "c_316",
   "prompt": "Your new question here?",
-  "tags": ["friends", "light", "fun"]
+  "tags": ["frens", "light", "fun"]
 }
 ```
 
 Available category tags:
-- `friends` - Friend conversations
-- `couples` - Romantic discussions
-- `philosophical` - Deep thoughts
-- `spicy` - Bold topics
+- `frens` - Friend conversations
+- `babe` - Romantic discussions
+- `deep` - Deep thoughts
+- `unfiltered` - Bold topics
 
 ---
 
@@ -157,7 +157,7 @@ The app includes:
 ## 🎯 Usage
 
 1. **Open the app** on your device
-2. **Select a category** (Friends, Couples, Philosophical, or Spicy)
+2. **Select a category** (FRENS, BABE, DEEP, or UNFILTERED)
 3. **Read the question** aloud to your group
 4. **Start a timer** (optional) for structured discussions
 5. **Swipe or tap** to move between cards

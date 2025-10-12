@@ -12,6 +12,11 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        heading: ['Montserrat Alternates', 'sans-serif'],
+        body: ['Raleway', 'sans-serif'],
+        sans: ['Raleway', 'sans-serif'],
+      },
     },
   },
   plugins: [],

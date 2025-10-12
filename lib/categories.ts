@@ -2,8 +2,8 @@ import type { CategoryInfo } from "@/types";
 
 export const categories: CategoryInfo[] = [
   {
-    id: "friends",
-    name: "Friends",
+    id: "frens",
+    name: "FRENS",
     gradient: {
       from: "#FF9A9E",
       to: "#FAD0C4"
@@ -11,8 +11,8 @@ export const categories: CategoryInfo[] = [
     description: "Fun and meaningful conversations for friends"
   },
   {
-    id: "couples",
-    name: "Couples",
+    id: "babe",
+    name: "BABE",
     gradient: {
       from: "#FF0080",
       to: "#FF8C00"
@@ -20,8 +20,8 @@ export const categories: CategoryInfo[] = [
     description: "Deepen your connection and spark intimacy"
   },
   {
-    id: "philosophical",
-    name: "Philosophical",
+    id: "deep",
+    name: "DEEP",
     gradient: {
       from: "#00DBDE",
       to: "#FC00FF"
@@ -29,8 +29,8 @@ export const categories: CategoryInfo[] = [
     description: "Deep, abstract, and reflective discussions"
   },
   {
-    id: "spicy",
-    name: "Spicy",
+    id: "unfiltered",
+    name: "UNFILTERED",
     gradient: {
       from: "#FF512F",
       to: "#DD2476"

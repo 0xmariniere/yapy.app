@@ -11,10 +11,10 @@ Designed to sit face-up in the middle of the table, Chattr brings human connecti
 ## ✨ Features
 
 - **4 Curated Categories**
-  - 🤝 **Friends** - Fun and meaningful conversations
-  - 💕 **Couples** - Deepen connection and spark intimacy
-  - 🤔 **Philosophical** - Deep, abstract, and reflective discussions
-  - 🔥 **Spicy** - Bold, controversial, and debate-style topics
+  - 🤝 **FRENS** - Fun and meaningful conversations
+  - 💕 **BABE** - Deepen connection and spark intimacy
+  - 🤔 **DEEP** - Deep, abstract, and reflective discussions
+  - 🔥 **UNFILTERED** - Bold, controversial, and debate-style topics
 
 - **Interactive Card Experience**
   - Swipe or tap to navigate between cards
@@ -153,8 +153,8 @@ Edit `/lib/categories.ts` to customize categories:
 ```typescript
 export const categories: CategoryInfo[] = [
   {
-    id: "friends",
-    name: "Friends",
+    id: "frens",
+    name: "FRENS",
     gradient: {
       from: "#FF9A9E",
       to: "#FAD0C4"

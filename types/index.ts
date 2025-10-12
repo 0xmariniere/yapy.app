@@ -15,7 +15,7 @@ export interface TagsResponse {
   tags: string[];
 }
 
-export type Category = "friends" | "couples" | "philosophical" | "spicy";
+export type Category = "frens" | "babe" | "deep" | "unfiltered";
 
 export interface CategoryInfo {
   id: Category;
