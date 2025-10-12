@@ -27,20 +27,6 @@ export default function ConversationCard({
 }: ConversationCardProps) {
   return (
     <div className="flex flex-col h-full animate-fade-in">
-      {/* Progress indicator */}
-      <div className="px-6 pt-6 pb-4">
-        <div className="flex items-center justify-between text-white/60 text-sm mb-2 font-medium">
-          <span>{category.name}</span>
-          <span>{currentIndex + 1} / {totalCards}</span>
-        </div>
-        <div className="w-full h-1 bg-white/20 rounded-full overflow-hidden">
-          <div 
-            className="h-full bg-white/60 transition-all duration-500 ease-out"
-            style={{ width: `${((currentIndex + 1) / totalCards) * 100}%` }}
-          />
-        </div>
-      </div>
-
       {/* Card content */}
       <div className="flex-1 flex items-center justify-center px-8 py-12">
         <div className="text-center max-w-2xl animate-slide-up">
@@ -103,11 +89,6 @@ export default function ConversationCard({
             </svg>
           </button>
         </div>
-
-        {/* Hint text */}
-        <p className="text-center text-white/40 text-xs sm:text-sm mt-4 sm:mt-6">
-          Swipe or tap to navigate
-        </p>
       </div>
     </div>
   );

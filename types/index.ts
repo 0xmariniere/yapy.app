@@ -20,6 +20,7 @@ export type Category = "frens" | "babe" | "deep" | "unfiltered";
 export interface CategoryInfo {
   id: Category;
   name: string;
+  emoji: string;
   gradient: {
     from: string;
     to: string;

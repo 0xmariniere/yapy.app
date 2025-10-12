@@ -29,10 +29,10 @@ export default function Home() {
         {/* Header */}
         <header className="pt-16 pb-8 px-6 text-center animate-fade-in">
           <h1 className="text-6xl md:text-7xl font-bold text-white mb-4 tracking-tight">
-            Chattr
+            yapy.app
           </h1>
           <p className="text-xl md:text-2xl text-white/80 font-medium">
-            Good conversations start here.
+            convos that hit
           </p>
         </header>
 
@@ -55,7 +55,6 @@ export default function Home() {
 
         {/* Footer */}
         <footer className="py-6 text-center text-white/50 text-sm">
-          <p>Place your phone face-up on the table and start connecting</p>
         </footer>
       </div>
     </main>

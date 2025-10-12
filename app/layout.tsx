@@ -2,12 +2,12 @@ import type { Metadata, Viewport } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Chattr - Good conversations start here",
+  title: "yapy.app - convos that hit",
   description: "A beautifully designed conversation starter app that helps people connect through meaningful, fun, or thought-provoking discussions.",
   appleWebApp: {
     capable: true,
     statusBarStyle: "black-translucent",
-    title: "Chattr",
+    title: "yapy.app",
   },
   manifest: "/manifest.json",
 };

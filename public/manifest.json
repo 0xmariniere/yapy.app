@@ -1,6 +1,6 @@
 {
-  "name": "Chattr - Good conversations start here",
-  "short_name": "Chattr",
+  "name": "yapy.app - convos that hit",
+  "short_name": "yapy.app",
   "description": "A beautifully designed conversation starter app that helps people connect through meaningful discussions",
   "start_url": "/",
   "display": "standalone",

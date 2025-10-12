@@ -1,20 +1,20 @@
-# 🗣️ Chattr
+# 🗣️ yapy.app
 
-**Good conversations start here.**
+**convos that hit**
 
-Chattr is a beautifully designed conversation starter app that helps people connect through meaningful, fun, or thought-provoking discussions. Using digital "cards" with curated questions, users can find inspiration for conversations with friends, partners, or groups.
+yapy.app is a beautifully designed conversation starter app that helps people connect through meaningful, fun, or thought-provoking discussions. Using digital "cards" with curated questions, users can find inspiration for conversations with friends, partners, or groups.
 
-Designed to sit face-up in the middle of the table, Chattr brings human connection back into focus — through intentional design, elegant simplicity, and engaging prompts.
+Designed to sit face-up in the middle of the table, yapy.app brings human connection back into focus — through intentional design, elegant simplicity, and engaging prompts.
 
 ---
 
 ## ✨ Features
 
 - **4 Curated Categories**
-  - 🤝 **FRENS** - Fun and meaningful conversations
-  - 💕 **BABE** - Deepen connection and spark intimacy
-  - 🤔 **DEEP** - Deep, abstract, and reflective discussions
-  - 🔥 **UNFILTERED** - Bold, controversial, and debate-style topics
+  - 🤝 **FRENS** - spark new takes
+  - 💕 **BABE** - evolve ur relationship
+  - 🤔 **DEEP** - go philosophical
+  - 🔥 **UNFILTERED** - pillow talk
 
 - **Interactive Card Experience**
   - Swipe or tap to navigate between cards
@@ -63,10 +63,10 @@ Designed to sit face-up in the middle of the table, Chattr brings human connecti
 ### Setup
 
 1. **Clone the repository**
-   ```bash
-   git clone <your-repo-url>
-   cd Chattr
-   ```
+```bash
+git clone <your-repo-url>
+cd chattr
+```
 
 2. **Install dependencies**
    ```bash
@@ -88,7 +88,7 @@ Designed to sit face-up in the middle of the table, Chattr brings human connecti
 ## 🏗️ Project Structure
 
 ```
-Chattr/
+yapy-app/
 ├── app/
 │   ├── api/
 │   │   ├── cards/        # API endpoint for cards
@@ -252,6 +252,6 @@ For questions or feedback, please open an issue on GitHub.
 
 ---
 
-**Chattr** - Where good conversations start. 💬
+**yapy.app** - convos that hit 💬
 
 

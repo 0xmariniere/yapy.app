@@ -19,6 +19,11 @@ export default function CategoryCard({ category }: CategoryCardProps) {
       {/* Overlay for better text contrast */}
       <div className="absolute inset-0 bg-black/10 group-hover:bg-black/5 transition-all duration-500" />
       
+      {/* Emoji in top right */}
+      <div className="absolute top-6 right-6 text-5xl z-10 drop-shadow-lg">
+        {category.emoji}
+      </div>
+      
       {/* Content */}
       <div className="relative z-10 transform transition-transform duration-300 group-hover:translate-y-[-4px]">
         <h2 className="text-4xl font-bold text-white mb-3 tracking-tight drop-shadow-lg">

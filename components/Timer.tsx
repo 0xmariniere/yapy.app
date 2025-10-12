@@ -22,9 +22,6 @@ export default function Timer() {
     // Timer selection view
     return (
       <div className="fixed bottom-0 left-0 right-0 bg-black/40 backdrop-blur-md border-t border-white/10 p-4 sm:p-6 pb-safe-8">
-        <p className="text-white/80 text-center mb-3 sm:mb-4 text-xs sm:text-sm font-medium">
-          Start a discussion timer
-        </p>
         <div className="flex justify-center gap-2 sm:gap-3">
           {durations.map((duration) => (
             <button

@@ -4,38 +4,42 @@ export const categories: CategoryInfo[] = [
   {
     id: "frens",
     name: "FRENS",
+    emoji: "✨",
     gradient: {
       from: "#FF9A9E",
       to: "#FAD0C4"
     },
-    description: "Fun and meaningful conversations for friends"
+    description: "spark new takes"
   },
   {
     id: "babe",
     name: "BABE",
+    emoji: "💌",
     gradient: {
       from: "#FF0080",
       to: "#FF8C00"
     },
-    description: "Deepen your connection and spark intimacy"
+    description: "evolve ur relationship"
   },
   {
     id: "deep",
     name: "DEEP",
+    emoji: "💭",
     gradient: {
       from: "#00DBDE",
       to: "#FC00FF"
     },
-    description: "Deep, abstract, and reflective discussions"
+    description: "go philosophical"
   },
   {
     id: "unfiltered",
     name: "UNFILTERED",
+    emoji: "🍑",
     gradient: {
       from: "#FF512F",
       to: "#DD2476"
     },
-    description: "Bold, controversial, and debate-style topics"
+    description: "pillow talk"
   }
 ];
 
