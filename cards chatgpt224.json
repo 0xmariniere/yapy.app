@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "total_cards": 224,
+    "total_cards": 277,
     "decks": {
-      "friends": 77,
-      "couples": 64,
-      "philosophical": 23,
+      "friends": 103,
+      "couples": 74,
+      "philosophical": 40,
       "spicy": 60
     },
     "source": "Chattr conversation decks — October 2025",
@@ -13,7 +13,7 @@
   "cards": [
     {
       "id": 1,
-      "prompt": "What seemingly insignificant thing contributes greatly to your happiness?",
+      "prompt": "What small thing contributes more to your happiness than people would expect?",
       "tags": [
         "friends"
       ]
@@ -41,7 +41,7 @@
     },
     {
       "id": 5,
-      "prompt": "Describe a time when you were your own worst enemy.",
+      "prompt": "When have you been your own worst enemy?",
       "tags": [
         "friends"
       ]
@@ -55,7 +55,7 @@
     },
     {
       "id": 7,
-      "prompt": "Who deserves credit in your life that you’ve been slow to acknowledge?",
+      "prompt": "Who deserves more recognition in your life than you've given them?",
       "tags": [
         "friends"
       ]
@@ -83,14 +83,14 @@
     },
     {
       "id": 11,
-      "prompt": "If you met your 10-year-old self, what would you say to them?",
+      "prompt": "If you could meet your younger self, what advice would you give them?",
       "tags": [
         "philosophical"
       ]
     },
     {
       "id": 12,
-      "prompt": "What’s one sign you would probably stay friends with someone for life?",
+      "prompt": "What's a sign that a friendship will last forever?",
       "tags": [
         "friends"
       ]
@@ -104,35 +104,28 @@
     },
     {
       "id": 14,
-      "prompt": "Who was the coolest kid in your high school, and where are they now?",
+      "prompt": "Who was the coolest kid in your high school, and what are they doing now?",
       "tags": [
         "friends"
       ]
     },
     {
       "id": 15,
-      "prompt": "If you could instantly attain three skills, what would they be?",
+      "prompt": "If you could instantly learn three new skills, what would they be?",
       "tags": [
         "friends"
       ]
     },
     {
       "id": 16,
-      "prompt": "In your biography, which chapters would you want your parents to skip?",
+      "prompt": "In the story of your life, which chapters would you want your parents to skip?",
       "tags": [
         "friends"
       ]
     },
     {
       "id": 17,
-      "prompt": "Have you ever had to break up with a friend? What was the reason?",
-      "tags": [
-        "friends"
-      ]
-    },
-    {
-      "id": 18,
-      "prompt": "If your life were a video game, which level would be the most difficult to get through?",
+      "prompt": "Describe a time you had to end a friendship and why.",
       "tags": [
         "friends"
       ]
@@ -167,14 +160,14 @@
     },
     {
       "id": 23,
-      "prompt": "How well would you get along with someone exactly like you?",
+      "prompt": "How well do you think you’d get along with someone exactly like you?",
       "tags": [
         "friends"
       ]
     },
     {
       "id": 24,
-      "prompt": "Who are the people most likely to thank you in their speech if they ever won an award?",
+      "prompt": "Who do you think would thank you in their award speech one day?",
       "tags": [
         "friends"
       ]
@@ -188,21 +181,21 @@
     },
     {
       "id": 26,
-      "prompt": "If every human came with a warning label, what would yours say?",
+      "prompt": "If every person came with a warning label, what would yours say?",
       "tags": [
         "friends"
       ]
     },
     {
       "id": 27,
-      "prompt": "Imagine your daily routine had been turned into a reality show. Which parts would be the most talked about?",
+      "prompt": "If your daily routine became a reality show, which parts would be the most talked about?",
       "tags": [
         "friends"
       ]
     },
     {
       "id": 28,
-      "prompt": "What would detectives assume about you if they inspected your room without ever meeting you?",
+      "prompt": "What do you think detectives would assume about you if they inspected your room without meeting you?",
       "tags": [
         "friends"
       ]
@@ -216,7 +209,7 @@
     },
     {
       "id": 30,
-      "prompt": "How would you spend your time if you turned invisible for a week?",
+      "prompt": "If you were invisible for a week, how would you spend your time?",
       "tags": [
         "friends"
       ]
@@ -230,35 +223,35 @@
     },
     {
       "id": 32,
-      "prompt": "When you were a child, how did you imagine adulthood, and how does that compare to reality?",
+      "prompt": "As a child, how did you imagine adulthood, and how does that compare to your life now?",
       "tags": [
         "friends"
       ]
     },
     {
       "id": 33,
-      "prompt": "Who’s the last person you'd want to be trapped with in an elevator?",
+      "prompt": "Who is the last person you’d want to be stuck in an elevator with?",
       "tags": [
         "friends"
       ]
     },
     {
       "id": 34,
-      "prompt": "Have you ever felt differently about a person after dreaming about them?",
+      "prompt": "Have you ever felt differently about someone after dreaming about them?",
       "tags": [
         "friends"
       ]
     },
     {
       "id": 35,
-      "prompt": "What’s something about your life now that you would miss when you’re eighty?",
+      "prompt": "What’s something about your life now that you think you’ll miss when you’re eighty?",
       "tags": [
         "friends"
       ]
     },
     {
       "id": 36,
-      "prompt": "What’s something you could do five years ago that you can’t do today?",
+      "prompt": "What’s something you could do five years ago that you can’t do now?",
       "tags": [
         "friends"
       ]
@@ -272,7 +265,7 @@
     },
     {
       "id": 38,
-      "prompt": "If you could give your parents advice on how to raise you, what would you tell them?",
+      "prompt": "If you could change one thing about your upbringing, what would it be?",
       "tags": [
         "friends"
       ]
@@ -293,14 +286,14 @@
     },
     {
       "id": 41,
-      "prompt": "Come up with a new Olympic sport in which you would definitely win a medal.",
+      "prompt": "What new Olympic sport would you definitely win a medal in?",
       "tags": [
         "friends"
       ]
     },
     {
       "id": 42,
-      "prompt": "What’s one thing your exes probably miss about you?",
+      "prompt": "What is one thing your exes probably miss about you?",
       "tags": [
         "friends"
       ]
@@ -321,14 +314,14 @@
     },
     {
       "id": 45,
-      "prompt": "What’s a character trait you hope you never pass down to your kids?",
+      "prompt": "What is a character trait you hope you never pass on to your kids?",
       "tags": [
         "friends"
       ]
     },
     {
       "id": 46,
-      "prompt": "What superpowers are more inconvenient than useful?",
+      "prompt": "Which superpowers do you think would be more inconvenient than useful?",
       "tags": [
         "friends"
       ]
@@ -342,7 +335,7 @@
     },
     {
       "id": 48,
-      "prompt": "What’s one weird belief you used to have as a kid?",
+      "prompt": "What is a weird belief you used to have as a kid?",
       "tags": [
         "friends"
       ]
@@ -398,7 +391,7 @@
     },
     {
       "id": 56,
-      "prompt": "When you sit next to someone on a plane, what do you think goes through their mind?",
+      "prompt": "When you sit next to someone on a plane, what do you imagine is going through their mind?",
       "tags": [
         "friends"
       ]
@@ -1217,28 +1210,28 @@
     },
     {
       "id": 173,
-      "prompt": "What’s a gift someone gave you that you’ll never forget?",
+      "prompt": "What is a gift someone gave you that you will never forget?",
       "tags": [
         "friends"
       ]
     },
     {
       "id": 174,
-      "prompt": "If you could be famous for something, what would it be?",
+      "prompt": "If you could be famous for one thing, what would it be?",
       "tags": [
         "friends"
       ]
     },
     {
       "id": 175,
-      "prompt": "What was the highlight of your day today?",
+      "prompt": "What was the best moment of your day today?",
       "tags": [
         "friends"
       ]
     },
     {
       "id": 176,
-      "prompt": "What’s a little thing other people do that always means a lot to you?",
+      "prompt": "What is a small thing that other people do that always means a lot to you?",
       "tags": [
         "friends"
       ]
@@ -1252,49 +1245,49 @@
     },
     {
       "id": 178,
-      "prompt": "How do you hope the people in your life see you?",
+      "prompt": "What kind of person do you hope the people in your life see you as?",
       "tags": [
         "friends"
       ]
     },
     {
       "id": 179,
-      "prompt": "What’s something you often wish people knew or understood about you?",
+      "prompt": "What is something you often wish people understood about you?",
       "tags": [
         "friends"
       ]
     },
     {
       "id": 180,
-      "prompt": "If you didn’t worry about consequences or opinions, what’s something you would do?",
+      "prompt": "If you did not worry about consequences or other people’s opinions, what is something you would do?",
       "tags": [
         "friends"
       ]
     },
     {
       "id": 181,
-      "prompt": "What’s something you think you’ll get better at for the rest of your life?",
+      "prompt": "What is something you think you will keep getting better at for the rest of your life?",
       "tags": [
         "friends"
       ]
     },
     {
       "id": 182,
-      "prompt": "What’s a small decision you made that changed your life in a big way?",
+      "prompt": "What is a small decision you made that changed your life in a big way?",
       "tags": [
         "friends"
       ]
     },
     {
       "id": 183,
-      "prompt": "What are you pretty sure you could never get tired of?",
+      "prompt": "What is something you are pretty sure you could never get tired of?",
       "tags": [
         "friends"
       ]
     },
     {
       "id": 184,
-      "prompt": "What’s something that took you a long time to learn or understand?",
+      "prompt": "What is something that took you a long time to learn or understand?",
       "tags": [
         "friends"
       ]
@@ -1308,21 +1301,21 @@
     },
     {
       "id": 186,
-      "prompt": "What’s a personal goal you’re working toward?",
+      "prompt": "What is a personal goal you are currently working toward?",
       "tags": [
         "friends"
       ]
     },
     {
       "id": 187,
-      "prompt": "What’s something you find embarrassing?",
+      "prompt": "What is something you find embarrassing?",
       "tags": [
         "friends"
       ]
     },
     {
       "id": 188,
-      "prompt": "If they made a movie about your life, what would one of the high points be?",
+      "prompt": "Which memory stands out as your happiest?",
       "tags": [
         "friends"
       ]
@@ -1336,112 +1329,112 @@
     },
     {
       "id": 190,
-      "prompt": "What food or song always brings back good memories?",
+      "prompt": "What food or song always brings back good memories for you?",
       "tags": [
         "friends"
       ]
     },
     {
       "id": 191,
-      "prompt": "Who’s someone you look up to, and what do you admire about them?",
+      "prompt": "Who is someone you look up to, and what do you admire about them?",
       "tags": [
         "friends"
       ]
     },
     {
       "id": 192,
-      "prompt": "What’s something you’re in the process of outgrowing?",
+      "prompt": "What is something you are in the process of outgrowing?",
       "tags": [
         "friends"
       ]
     },
     {
       "id": 193,
-      "prompt": "When was a recent moment in which you felt deeply happy?",
+      "prompt": "What is a recent moment when you felt deeply happy?",
       "tags": [
         "friends"
       ]
     },
     {
       "id": 194,
-      "prompt": "What’s a decision you once made that you’d make differently today?",
+      "prompt": "What is a decision you once made that you would make differently today?",
       "tags": [
         "friends"
       ]
     },
     {
       "id": 195,
-      "prompt": "Who in your life has had a bigger impact on you than they probably know?",
+      "prompt": "Who in your life has had a bigger impact on you than they probably realize?",
       "tags": [
         "friends"
       ]
     },
     {
       "id": 196,
-      "prompt": "What’s one of the best compliments you’ve ever received?",
+      "prompt": "What is the most meaningful compliment anyone has ever given you?",
       "tags": [
         "friends"
       ]
     },
     {
       "id": 197,
-      "prompt": "What’s a side of you that you only show to people you’re close with?",
+      "prompt": "What is a side of you that you only show to people you are close with?",
       "tags": [
         "friends"
       ]
     },
     {
       "id": 198,
-      "prompt": "What’s a habit or routine you’d like to get into?",
+      "prompt": "What is a habit or routine you would like to start?",
       "tags": [
         "friends"
       ]
     },
     {
       "id": 199,
-      "prompt": "What’s the biggest feeling you have right now?",
+      "prompt": "What is the strongest feeling you have right now?",
       "tags": [
         "friends"
       ]
     },
     {
       "id": 200,
-      "prompt": "What’s something you lost or misplaced that you still think about?",
+      "prompt": "What is something you lost or misplaced that you still think about?",
       "tags": [
         "friends"
       ]
     },
     {
       "id": 201,
-      "prompt": "What conversation or encounter with a stranger will you never forget?",
+      "prompt": "What is a conversation or encounter with a stranger that you will never forget?",
       "tags": [
         "friends"
       ]
     },
     {
       "id": 202,
-      "prompt": "What’s something you want and are also a bit afraid of?",
+      "prompt": "What is something you want and are also a bit afraid of?",
       "tags": [
         "friends"
       ]
     },
     {
       "id": 203,
-      "prompt": "What’s a message you wish you could deliver to someone?",
+      "prompt": "What is a message you wish you could send to someone?",
       "tags": [
         "friends"
       ]
     },
     {
       "id": 204,
-      "prompt": "What’s something you feel hopeful about?",
+      "prompt": "What is something you feel hopeful about?",
       "tags": [
         "friends"
       ]
     },
     {
       "id": 205,
-      "prompt": "What’s something you’re learning to like, or be more okay with?",
+      "prompt": "What is something you are learning to like, or to be more okay with?",
       "tags": [
         "friends"
       ]
@@ -1462,7 +1455,7 @@
     },
     {
       "id": 208,
-      "prompt": "What life situation has contributed to your strength or resilience?",
+      "prompt": "What life situation has helped build your strength or resilience?",
       "tags": [
         "friends"
       ]
@@ -1476,7 +1469,7 @@
     },
     {
       "id": 210,
-      "prompt": "What tends to be a common quality in people you really like?",
+      "prompt": "What is a common quality in people you really like?",
       "tags": [
         "friends"
       ]
@@ -1490,7 +1483,7 @@
     },
     {
       "id": 212,
-      "prompt": "If you could make a wish come true for someone else, what would it be?",
+      "prompt": "If you could make one wish come true for someone else, what would it be?",
       "tags": [
         "friends"
       ]
@@ -1577,6 +1570,384 @@
       "prompt": "What’s something that’s more challenging for you than for most people you know?",
       "tags": [
         "friends"
+      ]
+    },
+    {
+      "id": 225,
+      "prompt": "What is the most romantic gesture you have ever made for someone?",
+      "tags": [
+        "friends"
+      ]
+    },
+    {
+      "id": 226,
+      "prompt": "In what ways do you feel you most resemble your parents?",
+      "tags": [
+        "friends"
+      ]
+    },
+    {
+      "id": 227,
+      "prompt": "What is one habit you wish you could break?",
+      "tags": [
+        "friends"
+      ]
+    },
+    {
+      "id": 228,
+      "prompt": "What is the most childlike thing you still find yourself doing?",
+      "tags": [
+        "friends"
+      ]
+    },
+    {
+      "id": 229,
+      "prompt": "As a child, what did you imagine you would be when you grew up?",
+      "tags": [
+        "friends"
+      ]
+    },
+    {
+      "id": 230,
+      "prompt": "When did you last tell a lie that no one discovered?",
+      "tags": [
+        "friends"
+      ]
+    },
+    {
+      "id": 231,
+      "prompt": "What in your life are you most grateful for right now?",
+      "tags": [
+        "friends"
+      ]
+    },
+    {
+      "id": 232,
+      "prompt": "If you wrote your life story, what would you call it?",
+      "tags": [
+        "friends"
+      ]
+    },
+    {
+      "id": 233,
+      "prompt": "What is one thing most people would be surprised to learn about you?",
+      "tags": [
+        "friends"
+      ]
+    },
+    {
+      "id": 234,
+      "prompt": "What is another thing about you that almost nobody knows?",
+      "tags": [
+        "friends"
+      ]
+    },
+    {
+      "id": 235,
+      "prompt": "Five years from now, what do you hope your life looks like?",
+      "tags": [
+        "friends"
+      ]
+    },
+    {
+      "id": 236,
+      "prompt": "If your life had a soundtrack, which songs would be on it?",
+      "tags": [
+        "friends"
+      ]
+    },
+    {
+      "id": 237,
+      "prompt": "Where do you feel most safe, and what makes that place feel that way?",
+      "tags": [
+        "friends"
+      ]
+    },
+    {
+      "id": 238,
+      "prompt": "What is your favourite sound or smell, and what does it remind you of?",
+      "tags": [
+        "friends"
+      ]
+    },
+    {
+      "id": 239,
+      "prompt": "When was the most recent time you went out of your way to help a stranger?",
+      "tags": [
+        "friends"
+      ]
+    },
+    {
+      "id": 240,
+      "prompt": "When have you felt truly heartbroken, and what happened?",
+      "tags": [
+        "friends"
+      ]
+    },
+    {
+      "id": 241,
+      "prompt": "What happened in your most recent romantic encounter?",
+      "tags": [
+        "friends"
+      ]
+    },
+    {
+      "id": 242,
+      "prompt": "How would you describe your first great love?",
+      "tags": [
+        "friends"
+      ]
+    },
+    {
+      "id": 243,
+      "prompt": "What is a time you went into something expecting it to fail but did it anyway, and what happened?",
+      "tags": [
+        "friends"
+      ]
+    },
+    {
+      "id": 244,
+      "prompt": "When did you last sing to yourself, and when did you last sing to someone else?",
+      "tags": [
+        "friends"
+      ]
+    },
+    {
+      "id": 245,
+      "prompt": "Which achievement are you most proud of, and why?",
+      "tags": [
+        "friends"
+      ]
+    },
+    {
+      "id": 246,
+      "prompt": "If you were stranded on a deserted island, which three foods would you choose to have with you?",
+      "tags": [
+        "friends"
+      ]
+    },
+    {
+      "id": 247,
+      "prompt": "What is something you genuinely like about the person you are with right now?",
+      "tags": [
+        "friends"
+      ]
+    },
+    {
+      "id": 248,
+      "prompt": "What are three things you seem to have in common with the person next to you?",
+      "tags": [
+        "friends"
+      ]
+    },
+    {
+      "id": 249,
+      "prompt": "What is something you have wanted to do for a long time, and what has held you back?",
+      "tags": [
+        "friends"
+      ]
+    },
+    {
+      "id": 250,
+      "prompt": "What has been the high point of your life so far, and what made it so special?",
+      "tags": [
+        "friends"
+      ]
+    },
+    {
+      "id": 251,
+      "prompt": "What is a time you were unkind to someone who did not deserve it, and what happened?",
+      "tags": [
+        "friends"
+      ]
+    },
+    {
+      "id": 252,
+      "prompt": "What would your ideal date look like from start to finish?",
+      "tags": [
+        "couples"
+      ]
+    },
+    {
+      "id": 253,
+      "prompt": "In what ways do you most like to receive love, and how do you prefer to show it?",
+      "tags": [
+        "couples"
+      ]
+    },
+    {
+      "id": 254,
+      "prompt": "Which people, living or dead, would you most like to invite to a dinner?",
+      "tags": [
+        "philosophical"
+      ]
+    },
+    {
+      "id": 255,
+      "prompt": "Whose life do you think would be most shaken by your death?",
+      "tags": [
+        "philosophical"
+      ]
+    },
+    {
+      "id": 256,
+      "prompt": "Which three people have shaped who you are today the most?",
+      "tags": [
+        "philosophical"
+      ]
+    },
+    {
+      "id": 257,
+      "prompt": "What has been the lowest point in your life so far, and what was happening then?",
+      "tags": [
+        "philosophical"
+      ]
+    },
+    {
+      "id": 258,
+      "prompt": "How would you like people to describe you at your funeral?",
+      "tags": [
+        "philosophical"
+      ]
+    },
+    {
+      "id": 259,
+      "prompt": "Do you believe anything happens after we die? Why or why not?",
+      "tags": [
+        "philosophical"
+      ]
+    },
+    {
+      "id": 260,
+      "prompt": "In a few minutes, how would you tell the story of your life so far?",
+      "tags": [
+        "philosophical"
+      ]
+    },
+    {
+      "id": 261,
+      "prompt": "How do you define forgiveness in your own words?",
+      "tags": [
+        "philosophical"
+      ]
+    },
+    {
+      "id": 262,
+      "prompt": "What is the single most important decision you have made in your life?",
+      "tags": [
+        "philosophical"
+      ]
+    },
+    {
+      "id": 263,
+      "prompt": "If you could set one rule for everyone on Earth to follow, what would it be, and why?",
+      "tags": [
+        "philosophical"
+      ]
+    },
+    {
+      "id": 264,
+      "prompt": "How do you typically respond when you are in pain, physically or emotionally?",
+      "tags": [
+        "philosophical"
+      ]
+    },
+    {
+      "id": 265,
+      "prompt": "Whose death would impact you the most, and why?",
+      "tags": [
+        "philosophical"
+      ]
+    },
+    {
+      "id": 266,
+      "prompt": "When was the last time you genuinely feared you might die?",
+      "tags": [
+        "philosophical"
+      ]
+    },
+    {
+      "id": 267,
+      "prompt": "If you died tonight, what unspoken thing would you most regret not having said, and to whom?",
+      "tags": [
+        "philosophical"
+      ]
+    },
+    {
+      "id": 268,
+      "prompt": "What does inner freedom look like to you in practice?",
+      "tags": [
+        "philosophical"
+      ]
+    },
+    {
+      "id": 269,
+      "prompt": "If you could pick any superpower, which one would you choose and what would you do with it?",
+      "tags": [
+        "philosophical"
+      ]
+    },
+    {
+      "id": 270,
+      "prompt": "If your name were remembered far into the future, what would you want it to be associated with?",
+      "tags": [
+        "philosophical"
+      ]
+    },
+    {
+      "id": 271,
+      "prompt": "What is one small thing you have been wanting more of from me lately?",
+      "tags": [
+        "couples"
+      ]
+    },
+    {
+      "id": 272,
+      "prompt": "When I go quiet or pull back, how does that affect you, and what helps you most in those moments?",
+      "tags": [
+        "couples"
+      ]
+    },
+    {
+      "id": 273,
+      "prompt": "Would it feel good to have a regular time just to talk and listen, and what would make that feel safe for you?",
+      "tags": [
+        "couples"
+      ]
+    },
+    {
+      "id": 274,
+      "prompt": "Have you felt any change in how close we are, and if so, how would you describe it?",
+      "tags": [
+        "couples"
+      ]
+    },
+    {
+      "id": 275,
+      "prompt": "Is there anything you miss about how we used to feel together, and if so, what stands out most?",
+      "tags": [
+        "couples"
+      ]
+    },
+    {
+      "id": 276,
+      "prompt": "Does physical affection feel supportive for you right now, and if so, what kind feels best?",
+      "tags": [
+        "couples"
+      ]
+    },
+    {
+      "id": 277,
+      "prompt": "Would you like to try something new together soon, and if so, what is one small thing that sounds good?",
+      "tags": [
+        "couples"
+      ]
+    },
+    {
+      "id": 278,
+      "prompt": "Are there any memories of us that feel especially good to you, and if so, which one comes to mind first?",
+      "tags": [
+        "couples"
       ]
     }
   ]
