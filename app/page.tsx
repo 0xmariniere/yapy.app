@@ -1,9 +1,27 @@
 "use client";
 
+import { useEffect, useState } from "react";
 import CategoryCard from "@/components/CategoryCard";
 import { categories } from "@/lib/categories";
 
 export default function Home() {
+  const [showIntro, setShowIntro] = useState(false);
+
+  useEffect(() => {
+    if (typeof window === "undefined") return;
+    const seen = window.localStorage.getItem("yapyIntroSeen");
+    if (!seen) {
+      setShowIntro(true);
+    }
+  }, []);
+
+  const closeIntro = () => {
+    setShowIntro(false);
+    if (typeof window !== "undefined") {
+      window.localStorage.setItem("yapyIntroSeen", "1");
+    }
+  };
+
   return (
     <main className="min-h-screen relative overflow-hidden bg-[#d9d9d9]">
       {/* Postmodern Background Shapes - Exact Match */}
@@ -26,6 +44,33 @@ export default function Home() {
         {/* Burgundy circle - bottom right */}
         <div className="absolute bottom-[8%] right-[8%] w-[15%] h-[15%] bg-[#8B2252] rounded-full" style={{ aspectRatio: '1/1' }} />
       </div>
+
+      {/* Intro overlay */}
+      {showIntro && (
+        <div className="fixed inset-0 z-40 flex items-center justify-center bg-black/40 px-4">
+          <div className="relative max-w-xl md:max-w-2xl w-full bg-white rounded-3xl shadow-2xl px-6 sm:px-10 py-8 sm:py-10 text-center">
+            {/* Corner emojis */}
+            <span className="absolute -top-4 left-4 text-2xl sm:text-3xl select-none">💬</span>
+            <span className="absolute -top-4 right-6 text-2xl sm:text-3xl rotate-6 select-none">✨</span>
+            <span className="absolute bottom-0 -left-2 text-2xl sm:text-3xl translate-y-1/2 select-none">🦜</span>
+
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold leading-tight text-[#2d2d2d] mb-4">
+              Yapy is a conversation starter.
+            </h2>
+            <p className="text-base sm:text-lg md:text-xl text-[#2d2d2d] mb-6 sm:mb-8 leading-relaxed">
+              Open it with someone, pick a category,
+              <br className="hidden sm:block" />
+              and get new questions to discuss.
+            </p>
+            <button
+              onClick={closeIntro}
+              className="inline-flex items-center justify-center px-6 sm:px-8 py-3 sm:py-3.5 rounded-full bg-[#2d2d2d] text-white font-semibold text-base sm:text-lg shadow-md hover:bg-black transition-colors"
+            >
+              Got it
+            </button>
+          </div>
+        </div>
+      )}
 
       {/* Content */}
       <div className="relative z-10 min-h-screen flex flex-col">

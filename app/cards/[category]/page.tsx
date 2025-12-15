@@ -171,17 +171,17 @@ export default function CategoryPage({ params }: PageProps) {
         {getBackgroundShapes()}
       </div>
 
-      {/* Back button */}
+      {/* Back button / close icon */}
       <button
         onClick={() => router.push("/")}
-        className="absolute top-6 left-6 z-20 p-3 rounded-full bg-white/30 hover:bg-white/40 active:bg-white/50 backdrop-blur-sm transition-all duration-200"
+        className="absolute top-3 left-3 sm:top-6 sm:left-6 z-20 p-2 sm:p-3 rounded-full bg-white/80 hover:bg-white/95 active:bg-white backdrop-blur-sm transition-all duration-200"
         aria-label="Go back home"
       >
         <svg 
-          className="w-6 h-6" 
+          className="w-5 h-5 sm:w-6 sm:h-6" 
           fill="none" 
           strokeWidth={2.5} 
-          stroke="currentColor" 
+          stroke="currentColor"
           viewBox="0 0 24 24"
           style={{ color: categoryInfo.textColor }}
         >
